@@ -1,0 +1,40 @@
+Original Employee Data:
+     Name   Age   Salary Department
+0   Kiran  23.0  30000.0         IT
+1    Ravi   NaN  40000.0         HR
+2   Priya  22.0      NaN         IT
+3  Suresh  25.0  35000.0        NaN
+4     Anu   NaN  45000.0    Finance
+5   Rahul  24.0      NaN         HR
+
+Checking Missing Values:
+Name          0
+Age           2
+Salary        2
+Department    1
+dtype: int64
+
+Missing Value Percentage:
+Name           0.000000
+Age           33.333333
+Salary        33.333333
+Department    16.666667
+dtype: float64
+
+Employee Data After Cleaning:
+     Name   Age   Salary Department
+0   Kiran  23.0  30000.0         IT
+1    Ravi  23.5  40000.0         HR
+2   Priya  22.0  37500.0         IT
+3  Suresh  25.0  35000.0         HR
+4     Anu  23.5  45000.0    Finance
+5   Rahul  24.0  37500.0         HR
+
+Missing Values After Cleaning:
+Name          0
+Age           0
+Salary        0
+Department    0
+dtype: int64
+
+Missing Values Handled Successfully!
